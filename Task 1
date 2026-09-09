@@ -1,1 +1,4 @@
 
+# Task 1: Greeting Program
+name = input("Enter your name: ")
+print("Hello,", name)
