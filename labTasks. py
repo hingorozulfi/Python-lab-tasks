@@ -1,0 +1,35 @@
+# IOT Lab 5 Tasks
+# Assignment
+
+# Task 1: Greeting Program
+name = input("Enter your name: ")
+print("Hello,", name)
+
+# Task 2: Gross Pay Calculator
+hours = float(input("Enter hours worked: "))
+rate = float(input("Enter hourly rate: "))
+gross_pay = hours * rate
+print("Gross Pay:", gross_pay)
+
+# Task 3: Celsius to Fahrenheit Converter
+celsius = float(input("Enter temperature in Celsius: "))
+fahrenheit = (celsius * 9 / 5) + 32
+print("Temperature in Fahrenheit:", fahrenheit)
+
+# Task 4: Exponentiation
+base = float(input("Enter the first number: "))
+power = float(input("Enter the second number: "))
+result = base ** power
+print("Result:", result)
+
+# Task 5: Type Conversion Exercise
+age = 20
+item = 5
+print("age : ", age)
+print("items : ", item)
+
+# Changing integers into floats (Explicit Type Conversion)
+age = float(age)
+item = float(item)
+print("age : ", age)
+print("items: ", item)
